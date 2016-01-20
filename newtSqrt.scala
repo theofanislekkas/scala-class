@@ -15,6 +15,8 @@ object session{
 			   (guess + x / guess) / 2
 
 			sqrtIter(1.0)
+			// The x param is seen by all the expressions within the block
+			// this is why we removed all reference to it.
 		}
 
 		println(sqrt(4))
